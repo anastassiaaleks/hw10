@@ -1,0 +1,262 @@
+@media (max-width: 1440px) {
+    .contacts_list {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 1215px) {
+    .promo {
+        background-position-x: 130%;
+    }
+}
+
+@media (max-width: 1185px) {
+    .categories_list {
+        grid-template-columns: repeat(2, 262px);
+        grid-column-gap: 50px;
+        grid-row-gap: 50px;
+    }
+    .nav li:not(:last-child) {
+        margin-right: 5px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .promo {
+        background-position-x: 165%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .nav_toggle {
+        display: inline-block;
+    }
+
+    .nav ul {
+        display: none;
+    }
+
+    #nav_toggle:checked ~ ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav ul {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: rgb(26, 21, 31);
+        opacity: .9;
+        padding: 8%;
+        max-width: 200px;
+        height: 100%;
+        z-index: 4;
+        justify-content: flex-start;
+    }
+
+    .nav li {
+        margin-bottom: 25px;
+      
+    }
+
+    .nav li a {
+        color: white;
+        text-transform: uppercase;  
+        font-weight: normal;
+    }
+    .nav li:hover {
+        text-decoration: underline;
+        transition: .5s;
+    }
+
+    .mail-button {
+        grid-template-columns: 1fr;
+    }
+
+    .mail-button .button {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .services_list {
+        grid-template-columns: repeat(2, 340px);
+    }
+
+    .services_item3 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    .promo {
+        background-position: bottom; 
+        text-align: center;
+    }
+
+    .promo_container h1 {
+        margin: 0 auto;
+    }
+
+    .promo_container p {
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+
+    .promo_button {
+        margin: 0 auto;
+        margin-top: 30px;
+        padding-bottom: 435px;
+
+    }
+}
+
+@media (max-width: 980px) {
+    .communication {
+        background-position: top;
+        margin-top: 110px;
+        text-align: center;
+        padding-bottom: 120px;
+    }
+
+    .communication_title {
+        padding-top: 480px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 720px) {
+    .services_list {
+        grid-template-columns: repeat(1, 340px);
+    }
+
+    .services_item3 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+
+    .footer_top {
+        grid-template-columns: 1fr 1fr;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 50px;
+        grid-column-gap: 50px;
+        grid-row-gap: 50px;
+        margin-bottom: 50px;
+    }
+
+    
+
+    .footer_top_general {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        margin: 0 auto;
+        
+    }
+
+    .footer_top_general .company_info {
+        justify-content: center;
+    }
+
+    .store {
+        justify-content: center;
+    }
+
+    .contacts_list {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .contacts_list img {
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    .header .button {
+        display: none;
+    }
+
+    .company {
+        grid-template-columns: 3fr 2fr;
+        grid-column-gap: 50px;
+    }
+}
+
+@media (max-width: 600px) {
+    .categories_list {
+        grid-template-columns: repeat(1, 340px);
+        
+    }
+
+    .categories_item {
+        margin: 0 auto;
+    }
+
+    .visitors {
+        padding-bottom: 100px;
+    }
+
+    .promo_container h1 .communication_title h2{
+        font-size: 60px;
+        line-height: 58px;
+    }
+    
+    .promo_container p {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .categories_title h2 {
+        font-size: 46px;
+    }
+}
+
+@media (max-width: 425px){
+    .communication {
+        background-image: none;
+    }
+
+    .communication_title {
+        padding-top: 0px;
+    }
+    .promo {
+        background-image: none;
+    }
+
+    .promo_button {
+        padding-bottom: 0px;
+    }
+}
+
+@media (max-width: 375px) {
+    .footer_bottom_nav a:not(:last-child) {
+        margin-right: 1px;
+    }
+
+    .footer_bottom_social a:not(:first-child) {
+        margin-left: 10px;
+    }
+    .promo_container h1 {
+        font-size: 52px;
+    }
+    .communication_title h2 {
+        font-size: 40px;
+    }
+    .categories_title h2 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 340px){
+    .categories_list {
+        grid-template-columns: repeat(1, 320px);
+    }
+}
+
+@media (max-width: 320px) {
+    .services_list {
+        grid-template-columns: repeat(1, 310px);
+    }
+    .services_item {
+        width: 310px;
+    }
+}
+
